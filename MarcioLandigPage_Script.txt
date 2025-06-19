@@ -1,0 +1,20 @@
+Site modelo:
+
+https://rafaelcandiaadvocacia.com.br/direito-de-familia/
+
+Vamos mudar a marca acima para a que eu tenho: 
+
+marcio-logo.png
+
+Vamos mudar de texto apenas de: 
+Somos especialistas em 
+direito de família e trabalharemos para o melhor desfecho do seu caso.
+
+Para:
+Especialista em direito de família 
+
+Dr. Márcio Ferreira no lugar de Dr. Rafael Cândia (em todos os lugares que houver)
+
+Todo o restante vamos deixar bem parecido mudando ícone, layout e os tons para preto: #1A1A1A, 
+cinza: #4D4D4D e alguns detalhes em azul: #336699 o fundo mantém sempre mais leve com branco ou cinza.
+
