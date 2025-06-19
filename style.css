@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Dosis', Arial, sans-serif;
     background: #F7F7F7;
@@ -472,4 +473,474 @@ h1, h2, h3, h4 {
 
 .cta-whatsapp {
     margin-bottom: 32px;
+=======
+body {
+    font-family: 'Dosis', Arial, sans-serif;
+    background: #F7F7F7;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff url('assets/fundo-familia.jpg') top center/contain no-repeat;
+    opacity: 0.22;
+    filter: blur(1.2px) grayscale(0.12);
+    z-index: 0;
+    pointer-events: none;
+}
+body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.45);
+    z-index: 1;
+    pointer-events: none;
+}
+main, header, footer {
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    /* background: #fff; */
+    border-bottom: 2px solid #336699;
+    padding: 24px 0 16px 0;
+    position: relative;
+    overflow: hidden;
+}
+.header::before,
+.header::after {
+    display: none !important;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 32px;
+    position: relative;
+    z-index: 2;
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+.logo-large {
+    width: 320px;
+    max-width: 95vw;
+    height: auto;
+    display: block;
+}
+.header h1 {
+    color: #1A1A1A;
+    font-size: 2.2rem;
+    margin: 0 0 4px 0;
+    font-weight: 700;
+}
+.header h2 {
+    color: #4D4D4D;
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 400;
+}
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(51,102,153,0.08);
+    transition: background 0.2s;
+    gap: 12px;
+}
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
+.whatsapp-icon {
+    width: 28px;
+    height: 28px;
+}
+.intro {
+    background: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+.intro h3 {
+    color: #336699;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.intro p {
+    color: #4D4D4D;
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+.cta-whatsapp, .cta-final-btn {
+    background: #fff;
+    color: #336699;
+    border: 2px solid #336699;
+    box-shadow: 0 2px 8px rgba(51,102,153,0.04);
+    font-weight: 400;
+    font-size: 0.89rem;
+    padding: 6px 14px;
+    border-radius: 28px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    text-decoration: none;
+}
+.cta-whatsapp span, .cta-final-btn span {
+    font-size: 0.97em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.cta-whatsapp img, .whatsapp-btn img, .cta-final-btn img {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    filter: none;
+}
+.cta-whatsapp:hover, .whatsapp-btn:hover, .cta-final-btn:hover {
+    background: linear-gradient(90deg, #336699 0%, #25D366 100%);
+    color: #fff;
+    border-color: #25D366;
+}
+.cta-whatsapp:hover img, .whatsapp-btn:hover img, .cta-final-btn:hover img {
+    filter: brightness(1.2) saturate(1.2);
+}
+.services {
+    background: rgba(255,255,255,0.45);
+    padding: 48px 0;
+}
+.services h3 {
+    color: #1A1A1A;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-items: center;
+    margin-bottom: 32px;
+}
+.service-icon {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(51,102,153,0.10);
+    transition: box-shadow 0.25s, transform 0.18s;
+}
+.service-icon img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.service-card {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 18px;
+    padding: 32px 20px 28px 20px;
+    box-shadow: 0 4px 16px rgba(51,102,153,0.07);
+    color: #1A1A1A;
+    transition: box-shadow 0.2s, border 0.2s;
+    text-align: center;
+    min-height: 220px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.service-card:hover {
+    box-shadow: 0 8px 32px rgba(51,102,153,0.13);
+    border: 1.5px solid #336699;
+}
+.service-card:hover .service-icon {
+    background: #fff;
+    box-shadow: 0 6px 24px rgba(51,102,153,0.22), 0 1.5px 8px rgba(51,102,153,0.10);
+    transform: scale(1.10) rotate(-2deg);
+}
+.service-card h4 {
+    color: #336699;
+    margin-bottom: 8px;
+    font-size: 1.18rem;
+    font-weight: 700;
+}
+.service-card p {
+    color: #4D4D4D;
+    font-size: 1rem;
+}
+.about {
+    background: #fff;
+    padding: 48px 0;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 48px;
+}
+.about-content h3 {
+    color: #1A1A1A;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+.about-content h4 {
+    color: #336699;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+.about-content p {
+    color: #4D4D4D;
+    font-size: 1.1rem;
+}
+.cta-final {
+    background: #336699;
+    color: #fff;
+    padding: 48px 0 40px 0;
+    text-align: center;
+}
+.cta-final h3 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.cta-final p {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+.cta-final-btn {
+    background: #25D366;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 16px 36px;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(51,102,153,0.08);
+    transition: background 0.2s;
+}
+.cta-final-btn:hover {
+    background: #1ebe5d;
+}
+.footer {
+    background: #1A1A1A;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+@media (max-width: 900px) {
+    .header-content, .about-content {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    .services-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px 18px;
+    }
+}
+@media (max-width: 600px) {
+    .header-content, .about-content {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 18px 0;
+    }
+    .intro, .about, .services, .cta-final {
+        padding: 32px 0;
+    }
+}
+.logo,
+.logo-large,
+.whatsapp-icon,
+.cta-whatsapp img {
+    color: initial !important;
+    fill: initial !important;
+}
+.about-photo {
+    flex: 0 0 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 24px rgba(51,102,153,0.08);
+    background: #f7f7f7;
+}
+.about-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.about-info h3 {
+    color: #1A1A1A;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.about-info h4 {
+    color: #336699;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.about-info p {
+    color: #4D4D4D;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.about-info .cta-whatsapp {
+    margin-top: 18px;
+    align-self: flex-start;
+}
+@media (max-width: 900px) {
+    .about-content {
+        flex-direction: column;
+        gap: 32px;
+        text-align: center;
+    }
+    .about-photo {
+        justify-content: center;
+    }
+    .about-info .cta-whatsapp {
+        align-self: center;
+    }
+}
+
+/* --- Detalhes modernos e cor complementar --- */
+
+/* Linha divisória sutil dourada para separar seções principais */
+.section-divider {
+    width: 60px;
+    height: 4px;
+    background: #FFC857;
+    border-radius: 2px;
+    margin: 32px auto 24px auto;
+}
+
+/* Pequeno detalhe dourado em títulos de seção */
+.section-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background: #FFC857;
+    border-radius: 2px;
+    margin: 8px auto 0 auto;
+}
+
+/* Espaçamento geral entre seções */
+section {
+    margin-bottom: 48px;
+}
+
+/* Espaçamento entre títulos e conteúdo */
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+/* Espaçamento entre cards de como trabalhamos */
+.how-steps {
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+/* Espaçamento entre botões e elementos acima */
+.cta-whatsapp, .cta-final-btn {
+    margin-top: 18px;
+}
+
+/* Ajuste de padding nas seções principais */
+.about, .services, .concerns, .how-we-work {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+@media (max-width: 900px) {
+    section {
+        margin-bottom: 32px;
+    }
+    .about, .services, .concerns, .how-we-work {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .services-list {
+        gap: 28px 18px;
+    }
+    .how-steps {
+        gap: 20px;
+    }
+}
+@media (max-width: 600px) {
+    section {
+        margin-bottom: 22px;
+    }
+    .about, .services, .concerns, .how-we-work {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .services-list {
+        gap: 18px 0;
+    }
+    .how-steps {
+        gap: 12px;
+    }
+    h1, h2, h3, h4 {
+        margin-bottom: 12px;
+    }
+>>>>>>> c4836c902307164218e3d3f5085597705750f63d
 } 
