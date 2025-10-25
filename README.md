@@ -31,13 +31,17 @@ O projeto foi entregue e está **publicado com sucesso**, em uso real pelo clien
 [![Deploy Online](https://img.shields.io/badge/Deploy-Online-success?style=for-the-badge&logo=google-chrome)](https://advogadomarcioferreira.com.br/)
 
 <div align="center">
-  <a href="https://advogadomarcioferreira.com.br/" target="_blank">
-    <img src="https://image.thum.io/get/width/1200/crop/800/https://advogadomarcioferreira.com.br/" 
-     alt="Preview do site Márcio Ferreira" 
-     width="800px" 
-     style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.15);" />
-  </a>
-</div>
+
+[![Deploy Online](https://img.shields.io/badge/Deploy-Online-success?style=for-the-badge&logo=google-chrome)](https://advogadomarcioferreira.com.br/)
+
+<br><br>
+
+<a href="https://advogadomarcioferreira.com.br/" target="_blank">
+  <img src="assets/preview.png" 
+       alt="Preview do site Márcio Ferreira" 
+       width="800px" 
+       style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.15);" />
+</a>
 
 ---
 
