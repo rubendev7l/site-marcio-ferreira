@@ -332,12 +332,12 @@ main, header, footer {
     justify-content: center;
 }
 .profile-photo {
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid #fff;
-    box-shadow: 0 4px 24px rgba(51,102,153,0.08);
+    box-shadow: 0 4px 24px rgba(51, 102, 153, 0.08);
     background: #f7f7f7;
 }
 .about-info {
