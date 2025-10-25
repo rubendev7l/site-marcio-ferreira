@@ -32,10 +32,10 @@ O projeto foi entregue e está **publicado com sucesso**, em uso real pelo clien
 
 <div align="center">
   <a href="https://advogadomarcioferreira.com.br/" target="_blank">
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fadvogadomarcioferreira.com.br%2F&embed=screenshot.url&meta=false&overlay.browser=dark&overlay.shadow=true&overlay.background=linear-gradient(45deg%2C%23000000cc%2C%2300000000)" 
-         alt="Preview do site Márcio Ferreira" 
-         width="800px" 
-         style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.15);" />
+    <img src="https://image.thum.io/get/width/1200/crop/800/https://advogadomarcioferreira.com.br/" 
+     alt="Preview do site Márcio Ferreira" 
+     width="800px" 
+     style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.15);" />
   </a>
 </div>
 
